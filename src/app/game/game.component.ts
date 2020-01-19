@@ -11,7 +11,7 @@ export class GameComponent implements OnInit {
   current = 0;
   scenes = [];
   constructor() {
-    
+    this.scenes = JSON.parse()
 
   }
 
