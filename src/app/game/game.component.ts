@@ -11,9 +11,13 @@ export class GameComponent implements OnInit {
   motivation=0;
   current = 0;
   scenes = data_scenes;
-  
+
   constructor() {
 
+  }
+
+  update(jumpto:number){
+    this.current = jumpto;
   }
 
   ngOnInit() {}

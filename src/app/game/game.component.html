@@ -4,8 +4,8 @@
     </div>
 		<div style="position:absolute; top:30%; left:60%">
 			<div *ngFor="let link of scenes.scenes[current].links">
-				<a href="#">
-					<p style="color:white"> {{ link.txt }} </p>
+				<a href="#" (click)=update(link.jumpto)>
+					<p> {{ link.txt }} </p>
 				</a>
 			</div>
 		</div>
