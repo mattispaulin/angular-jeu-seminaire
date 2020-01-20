@@ -3,9 +3,9 @@
 		<img width=800 height=600 [src]=scenes.scenes[current].img>
     </div>
 		<div style="position:absolute; top:30%; left:60%">
-			<div *ngfor link in scenes.scenes[current].links>
+			<div *ngFor="let link of scenes.scenes[current].links">
 				<a href="#">
-					<p style="color:white"> tit </p>
+					<p style="color:white"> {{ link.txt }} </p>
 				</a>
 			</div>
 		</div>
