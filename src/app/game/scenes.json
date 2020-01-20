@@ -24,7 +24,7 @@
         },
         {
           "txt": "aller au 3",
-          "jumpto": 3,
+          "jumpto": 2,
           "drop_sante" : 1,
           "drop_motivation" : 2,
           "retard" : 2
