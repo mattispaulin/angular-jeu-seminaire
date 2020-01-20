@@ -10,7 +10,7 @@
                 opacity:0.5;
                 background-color:black;">
 			<div *ngFor="let link of scenes.scenes[current].links" style="margin-left:30px; margin-right:30px;">
-				<a href="#" (click)="update(link.jumpto, link.drop_sante, link.drop_motivation)">
+				<a href="#" (click)="update(link)">
 					<p> {{ link.txt }} </p>
 				</a>
 			</div>
@@ -32,7 +32,7 @@
     left:100px;">
     <img width=60 src="https://blogs.mulesoft.com/wp-content/uploads/2014/10/icon-team-blue-big.png">
     <div style="text-align:center; padding-top:0px;color:#ccaaff;">
-    {{ sante }} 
+    {{ motivation }} 
     </div>
   </div>
 

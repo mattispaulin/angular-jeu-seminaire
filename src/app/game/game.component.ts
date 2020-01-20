@@ -17,10 +17,10 @@ export class GameComponent implements OnInit {
 
   }
 
-  update(jumpto, drop_sante, drop_motivation){
-    this.current = jumpto;
-    this.sante = this.sante - drop_sante;
-    this.motivation = this.motivation - drop_motivation;
+  update(link){
+    this.current = link.jumpto;
+    this.sante = this.sante - link.drop_sante;
+    this.motivation = this.motivation - link.drop_motivation;
   }
 
   ngOnInit() {}
