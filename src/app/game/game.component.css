@@ -18,3 +18,11 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+
+#dialogue {
+    position:absolute; 
+    top:30%; 
+    left:60%; 
+    opacity:0.5;
+    background-color:black;
+}

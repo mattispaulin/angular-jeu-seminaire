@@ -7,8 +7,9 @@ import data_scenes from "./scenes.json";
   styleUrls: ["./game.component.css"]
 })
 export class GameComponent implements OnInit {
-  sante = 0;
-  motivation=0;
+  sante = 100;
+  motivation=100;
+  temps=100;
   current = 0;
   scenes = data_scenes;
 
