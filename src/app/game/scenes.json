@@ -21,6 +21,25 @@
           "drop_sante" : 1,
           "drop_motivation" : 2,
           "retard" : 2
+        },
+        {
+          "txt": "aller au 3",
+          "jumpto": 3,
+          "drop_sante" : 1,
+          "drop_motivation" : 2,
+          "retard" : 2
+        }
+      ]
+    },
+    {
+      "img": "https://cdn.radiofrance.fr/s3/cruiser-production/2017/11/76e193e6-54fa-46d1-b9a3-1b9c1e168643/640_2017111920300400-74ea5d8c57eb2f39a242f585a490f51b.webp",
+      "links": [
+        {
+          "txt": "début",
+          "jumpto": 0,
+          "drop_sante" : 5,
+          "drop_motivation" : 1,
+          "retard" : 1
         }
       ]
     }
