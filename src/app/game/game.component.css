@@ -1,6 +1,7 @@
 p {
-  font-family:Trebuchet MS;
+  font-family:'Times New Roman', Times, serif;
   color:white;
+  font-stretch:ultra-condensed;
 }
 
 a:link {
@@ -17,12 +18,4 @@ a:hover {
 
 a:active {
   text-decoration: none;
-}
-
-#dialogue {
-    position:absolute; 
-    top:30%; 
-    left:60%; 
-    opacity:0.5;
-    background-color:black;
 }
