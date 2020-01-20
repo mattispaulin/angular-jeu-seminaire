@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import data_scenes from "./scenes.json";
 
 @Component({
   selector: "game",
