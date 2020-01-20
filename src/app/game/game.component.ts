@@ -9,7 +9,7 @@ import data_scenes from "./scenes.json";
 export class GameComponent implements OnInit {
   sante = 100;
   motivation=100;
-  temps=100;
+  retard=0;
   current = 0;
   scenes = data_scenes;
 
@@ -21,6 +21,7 @@ export class GameComponent implements OnInit {
     this.current = link.jumpto;
     this.sante = this.sante - link.drop_sante;
     this.motivation = this.motivation - link.drop_motivation;
+    this.retard = this.retard + link.retard;
   }
 
   ngOnInit() {}

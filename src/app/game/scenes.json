@@ -7,7 +7,8 @@
           "txt": "avancer",
           "jumpto": 1,
           "drop_sante" : 0,
-          "drop_motivation" : 1
+          "drop_motivation" : 1,
+          "retard" : 1
         }
       ]
     },
@@ -18,7 +19,8 @@
           "txt": "reculer",
           "jumpto": 0,
           "drop_sante" : 1,
-          "drop_motivation" : 2
+          "drop_motivation" : 2,
+          "retard" : 2
         }
       ]
     }
