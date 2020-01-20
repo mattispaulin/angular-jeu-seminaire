@@ -1,8 +1,12 @@
-	<div>
-    <div style="position:absolute">
-      <img width=800 height=600 [src]=scenes.scenes[current].img>
+<div>
+	<div style="position:absolute">
+		<img width=800 height=600 [src]=scenes.scenes[current].img>
     </div>
 		<div style="position:absolute; top:30%; left:60%">
-      <p style="color:white"> tit </p>
-    </div>
+			<div *ngfor link in scenes.scenes[current].links>
+				<a href="#">
+					<p style="color:white"> tit </p>
+				</a>
+			</div>
+		</div>
 	</div>
