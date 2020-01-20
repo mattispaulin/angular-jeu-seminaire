@@ -5,7 +5,9 @@
       "links": [
         {
           "txt": "avancer",
-          "jumpto": 1
+          "jumpto": 1,
+          "drop_sante" : 0,
+          "drop_motivation" : 1
         }
       ]
     },
@@ -14,7 +16,9 @@
       "links": [
         {
           "txt": "reculer",
-          "jumpto": 0
+          "jumpto": 0,
+          "drop_sante" : 1,
+          "drop_motivation" : 2
         }
       ]
     }
